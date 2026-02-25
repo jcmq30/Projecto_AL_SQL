@@ -1,0 +1,9 @@
+CREATE TABLE Reservas (
+    id_reserva INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT,
+    id_quarto INT,
+    data_checkin DATE,
+    data_checkout DATE,
+    FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente),
+    FOREIGN KEY (id_quarto) REFERENCES Quartos(id_quarto))
+    
