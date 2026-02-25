@@ -1,5 +1,0 @@
-CREATE TABLE Quartos (
-    id_quarto INT AUTO_INCREMENT PRIMARY KEY,
-    numero INT NOT NULL,
-    tipo VARCHAR(50),
-    preco_noite DECIMAL(10,2))
